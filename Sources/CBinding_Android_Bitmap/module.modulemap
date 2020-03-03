@@ -1,0 +1,6 @@
+
+module CBinding_Android_Bitmap [system] {
+  umbrella header "include/Bridging-Header.h"
+  link "jnigraphics"
+  export *
+}
